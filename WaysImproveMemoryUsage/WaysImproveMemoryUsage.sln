@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WaysImproveMemoryUsage.DoNotConcatenateStrings", "WaysImproveMemoryUsage.DoNotConcatenateStrings\WaysImproveMemoryUsage.DoNotConcatenateStrings.csproj", "{EF2C136D-1C06-454E-8191-6649361F4744}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaysImproveMemoryUsage.AvoidArrayList", "WaysImproveMemoryUsage.AvoidArrayList\WaysImproveMemoryUsage.AvoidArrayList.csproj", "{70240A56-51B9-47E0-B996-2D30DDCE6425}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaysImproveMemoryUsage.SetListCapacity", "WaysImproveMemoryUsage.SetListCapacity\WaysImproveMemoryUsage.SetListCapacity.csproj", "{5E12EC20-2A33-460B-94A1-E0BF291C594D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WaysImproveMemoryUsage.DisposeObjects", "WaysImproveMemoryUsage.DisposeObjects\WaysImproveMemoryUsage.DisposeObjects.csproj", "{79E3F8DF-ECAE-45F6-9762-8F60D70A236F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF2C136D-1C06-454E-8191-6649361F4744}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF2C136D-1C06-454E-8191-6649361F4744}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF2C136D-1C06-454E-8191-6649361F4744}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF2C136D-1C06-454E-8191-6649361F4744}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70240A56-51B9-47E0-B996-2D30DDCE6425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70240A56-51B9-47E0-B996-2D30DDCE6425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70240A56-51B9-47E0-B996-2D30DDCE6425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70240A56-51B9-47E0-B996-2D30DDCE6425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E12EC20-2A33-460B-94A1-E0BF291C594D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E12EC20-2A33-460B-94A1-E0BF291C594D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E12EC20-2A33-460B-94A1-E0BF291C594D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E12EC20-2A33-460B-94A1-E0BF291C594D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79E3F8DF-ECAE-45F6-9762-8F60D70A236F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79E3F8DF-ECAE-45F6-9762-8F60D70A236F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79E3F8DF-ECAE-45F6-9762-8F60D70A236F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79E3F8DF-ECAE-45F6-9762-8F60D70A236F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9C3B3B03-B9F8-438C-A57F-A600F7312409}
+	EndGlobalSection
+EndGlobal

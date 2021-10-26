@@ -10,9 +10,9 @@ namespace WaysImproveMemoryUsage.AvoidArrayList
 
         static void Main(string[] args)
         {
-            CreateArrayList();
+            //CreateArrayList();
 
-            //CreateList();
+            CreateList();
 
             Console.ReadKey();
         }

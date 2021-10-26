@@ -10,13 +10,11 @@ namespace WaysImproveMemoryUsage.DoNotConcatenateStrings
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-
             //run one by one 
 
-            RegularConcatenation();
+            //RegularConcatenation();
 
-            //ConcatenationWithStrinBuilder();           
+            ConcatenationWithStrinBuilder();           
 
             Console.ReadKey();
         }        
@@ -25,7 +23,7 @@ namespace WaysImproveMemoryUsage.DoNotConcatenateStrings
         {
 
             string someText = string.Empty;
-            for (int i = 0; i < TimesToConcatenate; i++)
+            for (int i = 0; i < 10_000; i++)
             {
                 someText += "sometexttoconcatenate";
             }
@@ -37,7 +35,7 @@ namespace WaysImproveMemoryUsage.DoNotConcatenateStrings
         {           
 
             StringBuilder stringBuilder = new StringBuilder();
-            for (int i = 0; i < TimesToConcatenate; i++)
+            for (int i = 0; i < 10_000; i++)
             {
                 stringBuilder.Append("sometexttoconcatenate");
             }

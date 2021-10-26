@@ -8,9 +8,9 @@ namespace WaysImproveMemoryUsage.SetListCapacity
         const int ListCapacity = 10_000;
         static void Main(string[] args)
         {
-            //GenerateListWithoutCapacity();
+            GenerateListWithoutCapacity();
 
-            GenerateListWithCapacity();
+            //GenerateListWithCapacity();
 
             Console.ReadKey();
 
